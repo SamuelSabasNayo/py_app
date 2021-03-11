@@ -1,3 +1,30 @@
+import math
+
+print(math.pow(4, 3))
+
+
+# import math
+
+# print(math.factorial(4))
+
+
+# import math
+
+# print(math.floor(2.9))
+
+
+# import math
+
+# print(math.ceil(2.9))
+
+# x = - 2.9
+# print(abs(x))
+
+
+# x = 2.9
+# print(round(x))
+
+
 # x = 10
 # x -=3
 
