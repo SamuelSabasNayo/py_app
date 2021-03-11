@@ -1,8 +1,40 @@
-has_high_income = True
-has_criminal_record = False
+name = 'Samuel'
 
-if has_high_income and not has_criminal_record:
-  print('Eligible for loan')
+if len(name) < 3:
+  print('Name must be at least 3 characters')
+elif len(name) > 20:
+  print('Name must be a maximum of 20 characters')
+else:
+  print('Name looks good')
+
+
+# temp = 35
+
+# if temp != 30:
+#   print("it's a hot day")
+# else:
+#   print("it's not a hot day")
+
+# temp = 35
+
+# if temp == 30:
+#   print("it's a hot day")
+# else:
+#   print("it's not a hot day")
+
+  
+# temp = 35
+
+# if temp >= 30:
+#   print("it's a hot day")
+# else:
+#   print("it's not a hot day")
+
+# has_high_income = True
+# has_criminal_record = False
+
+# if has_high_income and not has_criminal_record:
+#   print('Eligible for loan')
 
   
 # has_high_income = True
