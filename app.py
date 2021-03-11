@@ -1,3 +1,27 @@
+# x = 10
+# x -=3
+
+# print(x)
+
+
+# x = 10
+# x +=3
+
+# print(x)
+
+
+# powers
+# print(10 ** 3)
+
+
+# print(10 % 3)
+
+#  to get integer
+# print(10 // 3)
+
+# print(10 / 3)
+
+
 # course = 'Python for Beginners'
 # print('python' in course)
 
