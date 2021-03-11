@@ -1,11 +1,21 @@
-name = 'Samuel'
+weight = int(input('Weight: '))
+unit = input('(L)bs or (K)g: ')
 
-if len(name) < 3:
-  print('Name must be at least 3 characters')
-elif len(name) > 20:
-  print('Name must be a maximum of 20 characters')
+if unit.upper() == 'L':
+  converted = weight * 0.45
+  print(f"You are {converted} Kg")
 else:
-  print('Name looks good')
+  converted = weight / 0.45
+  print(f"You are {converted} Lbs")
+
+# name = 'Samuel'
+
+# if len(name) < 3:
+#   print('Name must be at least 3 characters')
+# elif len(name) > 20:
+#   print('Name must be a maximum of 20 characters')
+# else:
+#   print('Name looks good')
 
 
 # temp = 35
