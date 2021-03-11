@@ -1,9 +1,37 @@
-first = 'John'
-last = 'Smith'
+# course = 'Python for Beginners'
+# print('python' in course)
 
-msg = f'{first} [{last}] is a coder'
 
-print(msg)
+# course = 'Python for Beginners'
+# print('Python' in course)
+
+
+# course = 'Python for Beginners'
+# print(course.replace('Beginners', 'Absolute Beginners'))
+
+
+# course = 'Python for Beginners'
+# print(course.title())
+
+
+# course = 'Python for Beginners'
+# print(course.find('f'))
+
+
+# course = 'Python for Beginners'
+# print(course.upper())
+
+
+# course = 'Python for Beginners'
+# print(len(course))
+
+
+# first = 'John'
+# last = 'Smith'
+
+# msg = f'{first} [{last}] is a coder'
+
+# print(msg)
 
 # course = 'Python for Beginners'
 # another = course[:]
