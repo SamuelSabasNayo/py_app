@@ -1,6 +1,27 @@
-from ecommerce import shipping
+import random
 
-shipping.calc_shipping()
+members = ['John', 'Mary', 'Bob', 'Travesy']
+
+leader = random.choice(members)
+print(leader)
+
+
+# import random
+
+# for i in range(3):
+#   print((random.randint(10, 20)))
+
+
+# import random
+
+# for i in range(3):
+#   print((random.random()))
+
+
+
+# from ecommerce import shipping
+
+# shipping.calc_shipping()
 
 
 
