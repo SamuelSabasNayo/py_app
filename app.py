@@ -1,32 +1,59 @@
-command =  ""
-started = False
+prices = [10, 20, 40]
+total = 0
 
-while True:
-  command = input("> ").lower()
-  if command == "start":
-    if started:
-      print("Car is already started!")
-    else:
-      started = True
-      print("Car started ... Ready to go.")
-  elif command == "stop":
-    if not started:
-      print("Car is already stopped!")
-    else:
-      started = False
-      print("Car stopped.")
-  elif command == "help":
-    print(
-      '''
-      start - to start the car.
-      stop - to stop the car.
-      exit - to exit.
-      '''
-    )
-  elif command == "exit":
-    break
-  else:
-    print("I don't understand that...")
+for price in prices:
+  total = total + price
+print(f"The total: {total}")
+
+# for item in range(4, 10, 2):
+#   print(item)
+
+  
+# for item in range(5, 10):
+#   print(item)
+
+  
+# for item in range(10):
+#   print(item)
+
+  
+# for item in ['Python', 'Java', 'JavaScript', 'Ruby', 'C++']:
+#   print(item)
+
+  
+# for item in 'Python':
+#   print(item)
+
+
+# command =  ""
+# started = False
+
+# while True:
+#   command = input("> ").lower()
+#   if command == "start":
+#     if started:
+#       print("Car is already started!")
+#     else:
+#       started = True
+#       print("Car started ... Ready to go.")
+#   elif command == "stop":
+#     if not started:
+#       print("Car is already stopped!")
+#     else:
+#       started = False
+#       print("Car stopped.")
+#   elif command == "help":
+#     print(
+#       '''
+#       start - to start the car.
+#       stop - to stop the car.
+#       exit - to exit.
+#       '''
+#     )
+#   elif command == "exit":
+#     break
+#   else:
+#     print("I don't understand that...")
 
 
 # secret_number = 9
