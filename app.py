@@ -1,12 +1,25 @@
-try:
-  age = int(input('Age: '))
-  income = 10
-  risk = income / age
-  print(risk)
-except ZeroDivisionError:
-  print('Age cannot be 0.')
-except ValueError:
-  print('Invalid value')
+class Point:
+  def move(self):
+    print('move')
+
+  def draw(self):
+    print('draw')
+
+
+point1 = Point()
+point1.move()
+point1.draw()
+# -------------------------------
+
+# try:
+#   age = int(input('Age: '))
+#   income = 10
+#   risk = income / age
+#   print(risk)
+# except ZeroDivisionError:
+#   print('Age cannot be 0.')
+# except ValueError:
+#   print('Invalid value')
 
   
 # try:
