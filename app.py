@@ -1,10 +1,35 @@
-nums = [2,2,4,5,6,5,4,6,3]
-uniques = []
+try:
+  age = int(input('Age: '))
+  income = 10
+  risk = income / age
+  print(risk)
+except ZeroDivisionError:
+  print('Age cannot be 0.')
+except ValueError:
+  print('Invalid value')
 
-for num in nums:
-  if num not in uniques:
-    uniques.append(num)
-print(uniques)
+  
+# try:
+#   age = int(input('Age: '))
+#   print(age)
+# except ValueError:
+#   print('Invalid value')
+
+
+# def greet_user(name):
+#   print(f"Hi {name}!")
+#   print('Welcome aboard.')
+  
+# greet_user("Sam")
+
+
+# nums = [2,2,4,5,6,5,4,6,3]
+# uniques = []
+
+# for num in nums:
+#   if num not in uniques:
+#     uniques.append(num)
+# print(uniques)
 
 
 # nums = [3, 5, 6, 1, 10, 8, 6]
