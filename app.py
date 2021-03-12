@@ -1,10 +1,19 @@
-nums = [3, 5, 6, 1, 10, 8, 6]
-max_num = nums[0]
+nums = [2,2,4,5,6,5,4,6,3]
+uniques = []
 
 for num in nums:
-  if num > max_num:
-    max_num = num
-print(max_num)
+  if num not in uniques:
+    uniques.append(num)
+print(uniques)
+
+
+# nums = [3, 5, 6, 1, 10, 8, 6]
+# max_num = nums[0]
+
+# for num in nums:
+#   if num > max_num:
+#     max_num = num
+# print(max_num)
 
 
 # names = ['mimi', 'momo', 'mama', 'nana', 'nono', 'nunu']
