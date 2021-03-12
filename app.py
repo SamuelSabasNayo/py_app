@@ -1,7 +1,24 @@
-nums = [5, 2, 5, 2, 2]
+nums = [3, 5, 6, 1, 10, 8, 6]
+max_num = nums[0]
 
-for i in nums:
-  print('X' * i)
+for num in nums:
+  if num > max_num:
+    max_num = num
+print(max_num)
+
+
+# names = ['mimi', 'momo', 'mama', 'nana', 'nono', 'nunu']
+# print(names[2: 4])
+
+
+# names = ['mimi', 'momo', 'mama', 'nana', 'nono', 'nunu']
+# print(names[2:])
+
+
+# nums = [5, 2, 5, 2, 2]
+
+# for i in nums:
+#   print('X' * i)
 
 
 # for x in range(4):
