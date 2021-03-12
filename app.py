@@ -1,16 +1,55 @@
-import random
+from pathlib import Path
 
-class Dice:
-  def roll(self):
-    first = random.randint(1, 6)
-    second = random.randint(1, 6)
-    return first, second
+path = Path()
+for item in path.glob('*'):
+  print(item)
+
+  
+# from pathlib import Path
+
+# path = Path()
+# for file in path.glob('*.py'):
+#   print(file)
 
 
-dice = Dice()
-res = dice.roll()
+# from pathlib import Path
 
-print(res)
+# path = Path()
+# print(path.glob('*.py'))
+
+
+# from pathlib import Path
+
+# path = Path("emails")
+# print(path.rmdir())
+
+
+# from pathlib import Path
+
+# path = Path("emails")
+# print(path.mkdir())
+
+
+# from pathlib import Path
+
+# path = Path("ecommerce")
+# print(path.exists())
+
+
+
+# import random
+
+# class Dice:
+#   def roll(self):
+#     first = random.randint(1, 6)
+#     second = random.randint(1, 6)
+#     return first, second
+
+
+# dice = Dice()
+# res = dice.roll()
+
+# print(res)
 
 
 # import random
