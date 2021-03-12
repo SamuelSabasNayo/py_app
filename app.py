@@ -1,9 +1,24 @@
 import random
 
-members = ['John', 'Mary', 'Bob', 'Travesy']
+class Dice:
+  def roll(self):
+    first = random.randint(1, 6)
+    second = random.randint(1, 6)
+    return first, second
 
-leader = random.choice(members)
-print(leader)
+
+dice = Dice()
+res = dice.roll()
+
+print(res)
+
+
+# import random
+
+# members = ['John', 'Mary', 'Bob', 'Travesy']
+
+# leader = random.choice(members)
+# print(leader)
 
 
 # import random
