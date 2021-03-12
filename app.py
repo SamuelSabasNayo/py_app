@@ -1,10 +1,21 @@
-import utils
+from ecommerce import shipping
 
-arr = [10, 3, 4, 12, 9, 8]
+shipping.calc_shipping()
 
-result = utils.find_max(arr)
 
-print(result)
+
+# import ecommerce.shipping
+
+# ecommerce.shipping.calc_shipping()
+
+
+# import utils
+
+# arr = [10, 3, 4, 12, 9, 8]
+
+# result = utils.find_max(arr)
+
+# print(result)
 
 
 # from converters import kg_to_lbs
