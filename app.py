@@ -1,14 +1,62 @@
-class Point:
-  def move(self):
-    print('move')
+class Person:
+  def __init__(self, name):
+    self.name = name
+    
+  def talk(self):
+    print(f"Hi, I am {self.name}")
 
-  def draw(self):
-    print('draw')
+
+person1 = Person("Sam Nayo")
+person1.talk()
 
 
-point1 = Point()
-point1.move()
-point1.draw()
+# class Person:
+#   def __init(self, name):
+#     self.name = name
+    
+#   def talk(self):
+#     print(f"Hi, I am {self.name}")
+################################################## not working
+
+
+# person1 = Person()
+# person1.talk("Sam Nayo")
+
+
+# class Person:
+#   def __init(self, name):
+#     self.name = name
+    
+#   def talk(self):
+#     print('talk')
+
+
+# person1 = Person()
+# person1.name = 'Sam Nayo'
+# print(person1.name)
+# person1.talk()
+
+
+# class Point:
+#   def __init__(self, x, y):
+#     self.x = x
+#     self.y = y
+
+
+# point = Point(10, 12) 
+# print(point.x)
+
+# class Point:
+#   def move(self):
+#     print('move')
+
+#   def draw(self):
+#     print('draw')
+
+
+# point1 = Point()
+# point1.move()
+# point1.draw()
 # -------------------------------
 
 # try:
