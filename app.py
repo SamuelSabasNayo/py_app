@@ -1,9 +1,26 @@
-prices = [10, 20, 40]
-total = 0
+nums = [5, 2, 5, 2, 2]
 
-for price in prices:
-  total = total + price
-print(f"The total: {total}")
+for i in nums:
+  print('X' * i)
+
+
+# for x in range(4):
+#   for y in range(3):
+#     if x == y:
+#       print(f"({x}, {y})")
+
+
+# for x in range(4):
+#   for y in range(3):
+#     print(f"({x}, {y})")      
+
+
+# prices = [10, 20, 40]
+# total = 0
+
+# for price in prices:
+#   total = total + price
+# print(f"The total: {total}")
 
 # for item in range(4, 10, 2):
 #   print(item)
