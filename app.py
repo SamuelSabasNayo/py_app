@@ -1,18 +1,42 @@
-class Mammal:
-  def walk(self):
-    print("walk")
+import utils
+
+arr = [10, 3, 4, 12, 9, 8]
+
+result = utils.find_max(arr)
+
+print(result)
 
 
-class Dog(Mammal):
-  pass
+# from converters import kg_to_lbs
 
-class Cat(Mammal):
-  def mao(self):
-    print('mao mao')
+# my_weight = kg_to_lbs(80)
+
+# print(my_weight)
+
+
+# import converters
+
+# my_weight = converters.kg_to_lbs(80)
+
+# print(my_weight)
+
+#######################################################################
+
+# class Mammal:
+#   def walk(self):
+#     print("walk")
+
+
+# class Dog(Mammal):
+#   pass
+
+# class Cat(Mammal):
+#   def mao(self):
+#     print('mao mao')
     
     
-cat1 = Cat()
-cat1.walk()
+# cat1 = Cat()
+# cat1.walk()
 
 
 # class Person:
