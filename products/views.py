@@ -4,4 +4,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-  return HttpResponse('These are the products!')
+  return HttpResponse('All products!')
+
+
+def newProducts(request):
+  return HttpResponse('New products!')
